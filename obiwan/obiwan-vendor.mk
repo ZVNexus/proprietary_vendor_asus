@@ -1344,6 +1344,7 @@ PRODUCT_PACKAGES += \
     libMpeg4SwEncoder \
     libfastcvopt \
     libthermalclient \
+    AsusVisualMaster \
     CACertService \
     CneApp \
     IWlanService \
