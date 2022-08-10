@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.iop@2.0-service \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
@@ -48,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/init.qti.qcv.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qcv.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
+    vendor/asus/obiwan/proprietary/vendor/bin/irisConfig:$(TARGET_COPY_OUT_VENDOR)/bin/irisConfig \
     vendor/asus/obiwan/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/asus/obiwan/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/asus/obiwan/proprietary/vendor/bin/loadalgo:$(TARGET_COPY_OUT_VENDOR)/bin/loadalgo \
@@ -202,6 +204,35 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/HDR_SCurve0810.png \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm1.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm10.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm11.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm12.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm13.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm14.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm15.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm16.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm17.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm18.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm19.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm2.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm20.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm21.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm22.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm23.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm24.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm25.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm26.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm27.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm3.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm4.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm5.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm6.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm7.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm8.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm9.txt \
+    vendor/asus/obiwan/proprietary/vendor/etc/irissoft_o.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft_o.fw \
     vendor/asus/obiwan/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/asus/obiwan/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/asus/obiwan/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -985,6 +1016,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdisplayskuutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayskuutils.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
@@ -1019,6 +1051,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libirisService.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
@@ -1070,6 +1103,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfioctl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libpwiriscalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwiriscalibrate.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libpwirissoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirissoft.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libpwsnapdragoncolor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwsnapdragoncolor.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwsoftirisPCS.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
@@ -1121,11 +1159,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-colormgr-algo.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
@@ -1206,6 +1247,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/asus/obiwan/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
