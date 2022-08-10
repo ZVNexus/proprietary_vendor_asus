@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/asus/obiwan/proprietary/system_ext/etc/permissions/privapp-permissions-aptxals.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-aptxals.xml \
     vendor/asus/obiwan/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/asus/obiwan/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/asus/obiwan/proprietary/vendor/bin/cali_check:$(TARGET_COPY_OUT_VENDOR)/bin/cali_check \
@@ -1351,6 +1352,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    aptxacu \
+    aptxui \
+    aptxals \
     com.android.hotwordenrollment.common.util \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
