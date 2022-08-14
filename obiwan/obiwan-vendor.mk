@@ -74,17 +74,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/asus/obiwan/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/asus/obiwan/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/asus/obiwan/proprietary/vendor/bin/cali_check:$(TARGET_COPY_OUT_VENDOR)/bin/cali_check \
-    vendor/asus/obiwan/proprietary/vendor/bin/cali_shipping_check:$(TARGET_COPY_OUT_VENDOR)/bin/cali_shipping_check \
     vendor/asus/obiwan/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/asus/obiwan/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/asus/obiwan/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/asus/obiwan/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/asus/obiwan/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
     vendor/asus/obiwan/proprietary/vendor/bin/dualcam_default_cali.bin:$(TARGET_COPY_OUT_VENDOR)/bin/dualcam_default_cali.bin \
-    vendor/asus/obiwan/proprietary/vendor/bin/fp_cali_mv:$(TARGET_COPY_OUT_VENDOR)/bin/fp_cali_mv \
     vendor/asus/obiwan/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
-    vendor/asus/obiwan/proprietary/vendor/bin/gf_ver.sh:$(TARGET_COPY_OUT_VENDOR)/bin/gf_ver.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/asus/obiwan/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/asus/obiwan/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -210,18 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/asus/obiwan/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/cal_test_f_result.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/cal_test_f_result.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/grip_bar0_test_result.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/grip_bar0_test_result.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/grip_bar1_test_result.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/grip_bar1_test_result.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/grip_frame_check_result.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/grip_frame_check_result.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/refwv:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/refwv \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/snt_configs.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/snt_configs.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/snt_deco_configs.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/snt_deco_configs.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/snt_tchwv_configs.txt:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/snt_tchwv_configs.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_cal/snt_wfmcfg:$(TARGET_COPY_OUT_VENDOR)/etc/grip_cal/snt_wfmcfg \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_fw/snt8100fsr.image:$(TARGET_COPY_OUT_VENDOR)/etc/grip_fw/snt8100fsr.image \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_fw/snt8100fsr.image_2.12.43:$(TARGET_COPY_OUT_VENDOR)/etc/grip_fw/snt8100fsr.image_2.12.43 \
-    vendor/asus/obiwan/proprietary/vendor/etc/grip_fw/snt8100fsr.image_2nd:$(TARGET_COPY_OUT_VENDOR)/etc/grip_fw/snt8100fsr.image_2nd \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret@1.0-service-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
@@ -241,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
-    vendor/asus/obiwan/proprietary/vendor/etc/init/init.goodixfp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.goodixfp.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
@@ -496,15 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodix_9896_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_9896_firmware.bin \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodix_cfg_station_9886.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_station_9886.bin \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodix_cfg_station_9896.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_station_9896.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
-    vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b00 \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b01 \
     vendor/asus/obiwan/proprietary/vendor/firmware/goodixfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp64.b02 \
@@ -596,70 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.b19 \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.mdt \
     vendor/asus/obiwan/proprietary/vendor/firmware/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/regdb.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_100.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_100.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_101.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_101.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_102.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_102.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_103.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_103.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_104.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_104.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_105.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_105.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_106.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_106.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_107.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_107.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_108.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_108.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_109.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_109.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_110.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_110.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_111.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_111.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_112.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_112.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_113.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_113.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_114.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_114.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_115.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_115.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_116.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_116.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_117.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_117.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_118.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_118.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_119.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_119.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_120.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_120.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_121.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_121.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_122.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_122.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_123.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_123.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_124.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_124.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_125.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_125.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_126.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_126.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_127.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_127.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_128.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_128.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_129.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_129.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_130.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_130.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_131.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_131.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_132.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_132.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_133.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_133.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_134.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_134.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_135.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_135.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_136.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_136.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_137.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_137.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_138.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_138.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_139.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_139.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_140.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_140.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_141.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_141.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_143.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_143.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_144.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_144.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_145.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_145.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_146.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_146.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_147.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_147.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_148.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_148.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_149.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_149.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_150.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_150.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_151.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_151.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_152.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_152.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_153.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_153.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_154.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_154.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_155.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_155.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_156.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_156.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_157.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_157.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_158.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_158.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_159.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_159.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_160.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_160.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_161.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_161.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_162.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_162.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_163.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_163.bin \
-    vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_6004.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_6004.bin \
     vendor/asus/obiwan/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
     vendor/asus/obiwan/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
     vendor/asus/obiwan/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
@@ -759,7 +669,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdec.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVenc.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
@@ -1073,7 +982,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVencMpeg4.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
@@ -1081,11 +989,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadaptlaunch.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_app_profiles.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
@@ -1106,11 +1010,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libarcsoft_rer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_rer.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libarcsoft_superresolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_superresolution.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
@@ -1132,9 +1031,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
@@ -1169,10 +1065,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgameoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgameoptfeature.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
@@ -1184,7 +1076,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
@@ -1199,7 +1090,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
@@ -1224,7 +1114,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -1252,12 +1141,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_base.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_basecodec.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_core.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_platform.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_utils.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_v4l2codec.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
@@ -1282,7 +1165,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so \
@@ -1329,7 +1211,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
@@ -1344,12 +1225,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libvppimmotion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppimmotion.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libwfddisplayconfig_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfddisplayconfig_proprietary.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
@@ -1371,11 +1249,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/style.cng:$(TARGET_COPY_OUT_VENDOR)/lib64/style.cng \
     vendor/asus/obiwan/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
@@ -1473,7 +1346,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/asus/obiwan/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
     vendor/asus/obiwan/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/asus/obiwan/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
